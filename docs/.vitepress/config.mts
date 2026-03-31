@@ -165,7 +165,12 @@ export default defineConfig({
         {
           text: '浏览器原理',
           items: [
-            { text: '进程模型', link: '/browser/process' }
+            { text: '进程与线程模型', link: '/browser/process' },
+            { text: '渲染流水线', link: '/browser/rendering' },
+            { text: '事件循环', link: '/browser/event-loop' },
+            { text: '浏览器缓存', link: '/browser/cache' },
+            { text: '跨域问题', link: '/browser/cors' },
+            { text: '浏览器安全', link: '/browser/security' },
           ]
         }
       ],
