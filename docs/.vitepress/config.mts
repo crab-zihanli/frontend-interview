@@ -27,7 +27,7 @@ export default defineConfig({
         text: '框架与工程',
         items: [
           { text: 'Vue 生态', link: '/vue/reactivity' },
-          { text: 'React 生态', link: '/react/fiber' },
+          { text: 'React 生态', link: '/react/basics' },
           { text: '工程化 (Webpack/Vite)', link: '/engineering/webpack' },
           { text: '性能优化', link: '/performance/loading' }
         ]
@@ -123,7 +123,11 @@ export default defineConfig({
         {
           text: 'React 生态',
           items: [
-            { text: 'Fiber 架构', link: '/react/fiber' }
+            { text: '基础与核心概念', link: '/react/basics' },
+            { text: 'Hooks 深入', link: '/react/hooks' },
+            { text: '渲染与调和', link: '/react/rendering' },
+            { text: 'Fiber 与调度', link: '/react/fiber' },
+            { text: 'Next.js 与全栈渲染', link: '/react/nextjs' }
           ]
         }
       ],
