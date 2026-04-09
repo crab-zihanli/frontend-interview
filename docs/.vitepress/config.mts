@@ -28,8 +28,8 @@ export default defineConfig({
         items: [
           { text: 'Vue 生态', link: '/vue/reactivity' },
           { text: 'React 生态', link: '/react/basics' },
-          { text: '工程化 (Webpack/Vite)', link: '/engineering/webpack' },
-          { text: '性能优化', link: '/performance/loading' }
+          { text: '工程化', link: '/engineering/bundler' },
+          { text: '性能优化', link: '/performance/metrics' }
         ]
       },
 
@@ -137,7 +137,9 @@ export default defineConfig({
         {
           text: '工程化',
           items: [
-            { text: 'Webpack', link: '/engineering/webpack' }
+            { text: '构建工具：Webpack 与 Vite', link: '/engineering/bundler' },
+            { text: '构建优化：速度与体积', link: '/engineering/optimization' },
+            { text: 'Monorepo 与 pnpm', link: '/engineering/monorepo' }
           ]
         }
       ],
@@ -147,7 +149,8 @@ export default defineConfig({
         {
           text: '性能优化',
           items: [
-            { text: '加载性能', link: '/performance/loading' }
+            { text: '性能指标与度量', link: '/performance/metrics' },
+            { text: '优化实战', link: '/performance/optimization' }
           ]
         }
       ],
